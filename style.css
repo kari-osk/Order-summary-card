@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* font-family: 'Red Hat Display', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+body{
+  background-color: var(--paleBlue);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: cover;
+  width: 100%;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container{
+  width: 375px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hero{
+  background-image: url(./images/illustration-hero.svg);
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+}
+
+.order h1{
+  font-weight: 900;
+  color: var(--darkBlue);
+  padding: 30px 0 20px;
+}
+
+.order p {
+  color: var(--desaturatedBlue);
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 0 20px 30px;
+}
+
+.payment{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 5px 7px;
+  margin: 0 30px 30px;
+  background-color: var(--veryPaleBlue);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+ 
+.payment h2{
+  color: var(--darkBlue);
+  font-size: 16px;
+  font-weight: 700;
+}
+.payment p{
+  color: var(--desaturatedBlue);
+  font-weight: 500;
+}
+.payment .change a{
+  color:var(--brightBlue);
+  font-size: 12px;
+}
+
+.payment a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--desaturatedBlue);
+}
+
+.submit{
+  width: 320px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--brightBlue);
+  color:var(--veryPaleBlue);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.submit:hover{
+  background-color: #1e1fcd;
+  box-shadow: 3px 5px 10px 4px var(--paleBlue);
+}
+
+.reset{
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: var(--desaturatedBlue);
+  font-size: 16px;
+}
+
+.reset:hover{
+  color: var(--darkBlue);
+}
+
+.attribution { 
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover{
+  font-weight: 700;
+}
