@@ -1,5 +1,6 @@
-# Order-summary-card
-Frontend Mentor challenge - Order summary component
+ # Frontend Mentor - Order-summary-card 
+
+This is a solution to the Frontend Mentor challenge
 
 ### Screenshot
 
