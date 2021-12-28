@@ -5,4 +5,4 @@ Frontend Mentor challenge - Order summary component
 
 ![](./screenshot.png)
 
-[I'm an inline-style link](https://www.google.com)
+[GitHub pages](https://kari-osk.github.io/Order-summary-card/)
